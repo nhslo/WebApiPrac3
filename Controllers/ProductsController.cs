@@ -5,7 +5,7 @@ using WebApiPrac3.Services;
 namespace WebApiPrac3.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/products")]
 public class ProductsController : ControllerBase
 {
     private readonly IProductService _service;
